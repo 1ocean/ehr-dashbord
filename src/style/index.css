@@ -1,0 +1,272 @@
+@charset "UTF-8";
+.el-card .el-card__header {
+    padding: 1%;
+    border: none;
+}
+
+.lackOfPostsReasonsStyle {
+    width: 100%;
+    height: 50%;
+    padding: 2%;
+    border-color: white;
+    box-sizing: border-box;
+    box-shadow: white;
+}
+
+.box-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.el-card__body {
+    flex: 1;
+}
+
+@font-face {
+    font-family: "DIN Alternate Bold";
+    src: local("DIN Alternate Bold"), url("../assets/fonts/DINAlternateBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "SourceHanSansCN ExtraLight";
+    src: local("SourceHanSansCN ExtraLight"), url("../assets/fonts/SourceHanSansCNExtraLight.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "SourceHanSansCN Medium";
+    src: local("SourceHanSansCN Medium"), url("../assets/fonts/SourceHanSansCNMedium.otf") format("truetype");
+}
+
+#main {
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+body {
+    margin: 0;
+}
+
+.firstLine {
+    /*overflow: auto;*/
+    margin: 1vw auto;
+    width: 98vw;
+    height: 43vh;
+    /*background-color: white;*/
+    border-radius: 6px;
+    display: flex;
+}
+
+.secondLine {
+    /*overflow: auto;*/
+    height: 44vh;
+    width: 98vw;
+    margin: 1vw auto;
+    display: flex;
+}
+
+#TurnoverRate {
+    width: 100%;
+    height: 100%;
+}
+
+.TurnoverRateStyle {
+    width: 50%;
+    height: 100%;
+    border-radius: 6px;
+    padding: 1vw;
+    background-color: white;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.TurnoverRateStyle .TurnoverRateStyle-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#buttons .buttons {
+    background: transparent;
+}
+.el-button--primary{
+    background: transparent!important;
+}
+
+
+
+.TurnoverRateStyle .TurnoverRateStyle-options {
+    flex: 1;
+    font-size: 13px;
+    text-align: right;
+}
+
+.TurnoverRateStyle .TurnoverRateStyle-options .buttons {
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+    color: black;
+    font-weight: 200;
+    margin-left: 1%;
+}
+
+.TurnoverRateStyle .TurnoverRateStyle-options .buttons:first-child {
+    margin-left: 0;
+}
+
+.TurnoverRateStyle .TurnoverRateStyle-options .buttons.active {
+    background-color: #2d6dad;
+    color: #fff;
+}
+
+#DepartureRatioArea {
+    height: 100%;
+    background-color: white;
+    width: 31%;
+    margin-left: 0.7%;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+    /*padding: 1%;*/
+}
+
+#DepartureRatio {
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    /*padding: 1% 0;*/
+}
+
+#TurnoverRateReasonsArea {
+    height: 100%;
+    background-color: white;
+    width: 49.3%;
+    border-radius: 6px;
+    margin-left: 0.7%;
+    box-sizing: border-box;
+    /*padding: 1%;*/
+}
+
+#TurnoverRateReasons {
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+}
+
+#bar {
+    height: 100%;
+    width: 18.3%;
+    background-color: white;
+    /*padding: 1%;*/
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+#lackOfPostsReasons {
+    width: 100%;
+    height: 100%;
+}
+
+#lackOfPostsReasonsTime {
+    width: 100%;
+    height: 100%;
+}
+
+.TurnoverRateReasonsStyles {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0.5vw 1vw;
+}
+
+.DepartureRatioStyless {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 4%;
+}
+
+#TurnoverRateReason {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    position: absolute;
+    left: 64%;
+    top: 57%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.TurnoverRateReasonStyle {
+    background-color: white;
+    border-radius: 6px;
+    width: 49.3%;
+    height: 100%;
+    margin-left: 0.7%;
+    padding: 1vw;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.85vh 1vw;
+    box-sizing: border-box;
+    background-color: #327dbb;
+}
+
+.nav-title {
+    color: #fff;
+    line-height: 1;
+}
+
+.nav-title__logo {
+    height: 2.08vw;
+}
+
+.nav-title__content {
+    vertical-align: top;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 2.08vw;
+    margin: 0 0 0 3vw;
+}
+
+.nav-picker {
+    height: 2.08vw;
+}
+
+.nav-picker .nav-picker__body {
+    height: 100%;
+}
+
+.nav-picker .nav-picker__body .el-input {
+    width: 115px;
+}
+
+.nav-picker .nav-picker__body .el-input__inner {
+    line-height: 0;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.nav-picker .nav-picker__body .el-input__icon {
+    line-height: 2.2vw;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.echarts-title {
+    font-weight: bold;
+    font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, "微软雅黑", Arial, sans-serif;
+}
+
+/*# sourceMappingURL=index.css.map */
